@@ -1,0 +1,40 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.btn-learn-more {text-align:center}
+	
+	.campaign h5 {text-align:center; padding:13px 1px;}
+	.view-pricing {text-align:center; margin:10px 0;}
+
+	.pricing-border {border:1px solid #74757f; border-radius:6px; margin:0 10px;}
+	.pricing-border-right {border-bottom:1px solid #74757f; border-right:none;}
+	
+	.branding-promotion h5 {text-align:center; padding:13px 1px;}
+	.free-consultation {text-align:center; margin:10px 0;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.pricing-border {border:1px solid #74757f; border-radius:6px; margin:0 10px;}
+	.pricing-border-right {border-bottom:1px solid #74757f; border-right:none;}
+	
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.pricing-border {border:1px solid #74757f; border-radius:6px;}
+.pricing-border-right {border-right:1px solid #74757f; border-bottom:none}	
+
+
+}

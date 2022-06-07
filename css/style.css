@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {margin:0; padding:0; font-family:work sans;}
+* {margin:0; padding:0; box-sizing:border-box; text-decoration:none !important;}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {padding:1rem 0;}
+.nav-link {text-transform:uppercase;}
+.navbar-light .navbar-nav .nav-link {color:#29293a; font-family:Oswald; font-size:0.9rem;}
+.navbar-light .navbar-nav .nav-link:hover {color:#1ab785;}
+.navbar-expand-lg .navbar-nav .nav-link {margin:0; padding:0 1.5rem;} 
+
+.carousel-indicators li {margin:0 0.6rem; width:30px; height:10px; border-radius:100%; background:#1ab785;}
+.carousel-caption {bottom:300px;}
+.carousel-caption h5 {font-size:6rem; color:#29293a; text-transform:uppercase; font-weight:500; font-family:oswald; }
+
+.services {margin:0; padding:3rem 0;}
+.our-services {margin:0; padding:0 ; text-align:center;}
+.our-services h5 {margin:0; padding: 0 ; font-size:2rem; font-weight:300;  text-transform:uppercase; color:#29293a;}
+.our-services p {margin:0; padding:1.3rem 0; font-size:1rem;  text-transform:capitalize; color:#74757f; font-weight:300;}
+
+.branding {margin:0; padding:0.6rem 0;}
+.branding h4 {margin:0; padding:0.6rem 0; text-transform:capitalize; color:#29293a;  font-weight:300; font-size:1.5rem;}
+.branding p {margin:0; padding:0; font-size:1rem;  color:#74757f; font-weight:300; letter-spacing:0.5; }
+.branding .bi {font-size:2rem; color:#1ab785}
+
+.about-us {margin:0; padding:4rem 0; background:#f5f6fa;}
+.few-word {margin:0; padding:0;}
+.few-word h4 {margin:0 0 2rem 0 ; padding:0; font-size:2rem; font-weight:400; color:#29293a; }
+.few-word p {margin:0; padding:0.6rem 0; font-size:1rem; font-weight:400; color:#74757f;}
+.btn-learn-more {margin:0; padding:0;}
+.btn-learn-more .btn {margin:2rem 0; padding:1rem 4rem; text-transform:uppercase; letter-spacing:0.2em; font-size:1rem; }
+.btn-learn-more .btnbg { margin:20px 0; padding: 15px 4rem; background: #1ab785; color:#fff; letter-spacing:1px; font-weight:700; text-transform:uppercase;}
+.btn-learn-more .btnbg:hover {color:#fff; background:#1dcd95}
+.about-img {margin:0; padding:0;}
+.about-img img {width:100%; height:auto;}
+
+.marketing {margin:0; padding:4rem 0; background: rgb(26,183,133); background: linear-gradient(90deg, rgba(26,183,133,1) 0%, rgba(44,125,99,1) 46%);}
+.campaign {margin:0 ; padding:0; }
+.campaign h5 {margin:0; padding:13px 32px; font-size:1.5rem; text-transform:capitalize; font-weight:400;  color:#fff; text-align:right;}
+.campaign h5 span {font-weight:700; }
+.view-pricing {margin:0; padding:0; }
+.view-pricing .btnbg { margin:0; padding: 15px 4rem; background: #1ab785; color:#fff; letter-spacing:1px; font-weight:700; text-transform:uppercase;}
+.view-pricing .btnbg:hover {color:#fff; background:#1dcd95}
+
+.our-team {margin:0; padding:4rem 0;}
+.wwa {margin:0; padding:1.3rem 0;}
+.wwa h5 {margin:0; padding:0; font-size:2rem; font-weight:400;  text-transform:capitalize; color:#74757f; text-align:center;}
+.nathan-porter {margin:0; padding:0.6rem 0;}
+.nathan-porter img {width:100%; height:auto;}
+.btn-view-all {text-align:center}
+.btn-view-all .btnbg { margin: 4rem 0 1.3rem 0 ; padding: 15px 4rem; background: #1ab785; color:#fff; letter-spacing:1px; font-weight:700; text-transform:uppercase;}
+.btn-view-all .btnbg:hover {color:#fff; background:#2c7d63}
+
+.testimonials {margin:0; padding:4rem 0; background:#f5f6fa}
+.testimoinal-txt {margin:0; padding:0;}
+.testimoinal-txt h5 {margin:0 ; padding:0; font-size:2rem; font-weight:400; text-transform:capitalize; text-align:center; color:29293a;}
+.carousel .img-box {width: 80px; height: 80px; margin: 0; border-radius: 50%}
+.carousel .img-box img {width: 100%; height: 100%; border-radius: 50% }
+.carousel .overview b { color: #333; font-size: 15px; text-transform: uppercase; display: block; padding-bottom: 5px}
+.carousel .carousel-control { width: 30px; height: 30px; border-radius: 50%; background: #999; text-shadow: none; top: 4px}
+.carousel-control i { font-size: 20px; margin-right: 2px}
+.testimoinal-con .carousel-indicators li {margin:0 0.6rem; width:15px; height:15px; border-radius:100%; background:#1ab785;; border-top:none; border-bottom:none;}
+.testimoinal-con .carousel-indicators {bottom:-60px; left:-460px;}
+.testimonial-quote {margin:0; padding:1.8rem 0; }
+.testimonial-quote .fa {margin:0; padding: 0 0 0.6rem 0; font-size:2rem; color:#aeb1be;}
+.testimonial-quote p {margin:0; padding:0; font-size:1rem; font-weight:400; color:#aeb1be; }
+.ceo {margin:0; padding:0; display:flex;}
+.albert-webb {margin:0; padding:1rem 0; }
+.albert-webb h5 {margin:0; padding:0 0 0 1.3rem; font-size:1.3rem; font-weight:400; color:#1ab785; text-transform:capitalize; }
+.albert-webb p {margin:0; padding:0 0 0 1.3rem ; font-size:1rem; color:#aeb1be; text-transform:capitalize;}
+.testimoinal-img {margin:0; padding:1.8rem 0}
+.testimoinal-img img {width:100%; height:auto}
+
+
+.pricing {margin:0; padding:4rem 0}
+.pricing-txt {margin:0; padding:0; text-align:center }
+.pricing-txt h5 {margin:0; padding:0; font-size:2rem; font-weight:400; text-transform:capitalize; color:#29293a;}
+.pricing-txt p {margin:0; padding:0.6rem 0; font-size:1rem; font-weight:400;  color:#29293a;}
+.pricing-border {border:1px solid #74757f; border-radius:6px;}
+.pricing-border-right {border-right:1px solid #74757f;}
+
+.small-business {margin:0; padding:3rem 0; text-align:center;}
+.small-business h5 {margin:0; padding:0.6rem 0; font-size:1.3rem; color:#29293a; font-weight:700; text-transform:capitalize;}
+.small-business .bi {color:#1ab785; font-size:1.625rem; }
+.small-business table {margin:20px auto;}
+.small-business table td {text-align:left; padding:5px; color:#74757f; font-size:1rem; text-transform:capitalize;}
+.small-business table td:first-child {text-align:right}
+.small-business h4 {margin:0; padding:0; font-size:2rem; font-weight:400; color:#29293a; font-family:work sans;}
+.small-business sup {color:#74757f;}
+
+.medium-business {margin:0; padding:3rem 0; text-align:center;}
+.medium-business h5 {margin:0; padding:0.6rem 0; font-size:1.3rem; color:#29293a; font-weight:700; text-transform:capitalize;}
+.medium-business .bi {color:#1ab785; font-size:1.625rem; }
+.medium-business table {margin:20px auto;}
+.medium-business table td {text-align:left; padding:5px; color:#74757f; font-size:1rem; text-transform:capitalize;}
+.medium-business table td:first-child {text-align:right}
+.medium-business h4 {margin:0; padding:0; font-size:2rem; font-weight:400; color:#29293a; font-family:work sans;}
+.medium-business sup {color:#74757f; }
+
+.big-business {margin:0; padding:3rem 0; text-align:center;}
+.big-business h5 {margin:0; padding:0.6rem 0; font-size:1.3rem; color:#29293a; font-weight:700; text-transform:capitalize;}
+.big-business .bi {color:#1ab785; font-size:1.625rem; }
+.big-business table {margin:20px auto;}
+.big-business table td {text-align:left; padding:5px; color:#74757f; font-size:1rem; text-transform:capitalize;}
+.big-business table td:first-child {text-align:right}
+.big-business h4 {margin:0; padding:0; font-size:2rem; font-weight:400; color:#29293a; font-family:work sans;}
+.big-business sup {color:#74757f;}
+
+.corporation {margin:0; padding:3rem 0; text-align:center;}
+.corporation h5 {margin:0; padding:0.6rem 0; font-size:1.3rem; color:#29293a; font-weight:700; text-transform:capitalize;}
+.corporation .bi {color:#1ab785; font-size:1.625rem; }
+.corporation table {margin:20px auto;}
+.corporation table td {text-align:left; padding:5px; color:#74757f; font-size:1rem; text-transform:capitalize;}
+.corporation table td:first-child {text-align:right}
+.corporation h4 {margin:0; padding:0; font-size:2rem; font-weight:400; color:#29293a; font-family:work sans;}
+.corporation sup {color:#74757f;}
+.btnbg { margin: 20px 0 0 0; padding: 15px 3rem; background: #1ab785; color:#fff; text-transform:uppercase;}
+.btnbg:hover {color:#fff; background:#2c7d63}
+
+.branding-promo {margin:0; padding:4rem 0; background: rgb(26,183,133); background: linear-gradient(90deg, rgba(26,183,133,1) 0%, rgba(44,125,99,1) 46%);}
+.branding-promotion {margin:0; padding:0;}
+.branding-promotion h5 {margin:0; padding:9px 30px; font-size:2rem; font-weight:400; text-transform:capitalize; text-align:right; color:#fff;}
+.branding-promotion span {font-weight:700; }
+.free-consultation {margin:0; padding:0; }
+.free-consultation .btnbg {  margin:0; padding: 15px 3rem; background: #1ab785; color:#fff; letter-spacing:1px; font-weight:700; text-transform:uppercase;}
+.free-consultation .btnbg:hover {color:#fff; background:#1dcd95}
+
+.latesh-blog {margin:0; padding:4rem 0; }
+.blog-post {margin:0; padding:0;}
+.blog-post h4 {margin:0; padding:0; font-size:2rem; font-weight:400; text-transform:capitalize; text-align:center; color:#29293a;}
+.digital-blog-post {margin:0; padding:2rem 0 0 0}
+.digital-blog-post img {width:100%; height:auto;}
+.market-need {margin:0; padding:2rem 0 0 0}
+.market-need img {width:100%; height:auto;}
+.digital-marketing-mistake {margin:0; padding:0;}
+.digital-marketing-mistake h5 {margin:0; padding:1.3rem 0;}
+.digital-marketing-mistake h5 a { font-size:1.5rem; color:#1ab785; font-weight:400; text-transform:capitalize}
+.digital-marketing-mistake ul {list-style:none; display:inline-block;}
+.digital-marketing-mistake ul li {margin:0; padding:0 1.3rem ; display:inline-block; font-size:1rem; font-weight:400; color:#74757f; border-right:1px solid #e8e9ee}
+.digital-marketing-mistake ul li .news {margin:0; padding:0; font-size:1rem; color:#1ab785; font-weight:400; text-transform:capitalize; transition:all 0.3s ease-in-out;}
+.digital-marketing-mistake ul li .news:hover {color:#2c7d63}
+.digital-marketing-mistake ul li:last-child {border:none !important;}
+.digital-marketing-mistake ul li:first-child {padding:0 1.3rem 0 0 !important}
+.digital-marketing-mistake p {margin:0; padding:0; font-size:1rem; color:#74757f; font-weight:400;}
+.view-all-blogs {margin:0; padding:2rem 0; text-align:center}
+.view-all-blogs .btnbg {margin:0; padding:10px 2rem; border:2px solid #1ab785; background:none; color:#29293a; font-size:0.9rem letter-spacing:1px; font-weight:700; text-transform:uppercase;}
+.view-all-blogs .btnbg:hover {color:#fff; background:#1dcd95; }
+
+.product-image {margin:0; padding:0;}
+.stretch-card>.card {width: 100%; min-width: 100% }
+.flex { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto}
+.owl-carousel .item img {display: block; width: 100%; height: auto }
+
+.footer {margin:0; padding:4rem 0 2rem 0; background:#252227;}
+.quick-link {margin:0; padding:0;}
+.quick-link h5 {margin:0; padding:0; color:#aeb1be; font-size:1.5rem; font-weight:400;  text-transform:capitalize;}
+.contact-info {margin:0; padding:0;}
+.contact-info h5 {margin:0; padding:0; color:#aeb1be; font-size:1.5rem; font-weight:400;  text-transform:capitalize;}
+.hori-line {background:#aeb1be; width:100%; height:1px; margin:1.3rem 0; padding:0; }
+.f-services {margin:0; padding:0;}
+.f-services ul {margin:0; padding:0;}
+.f-services ul li {margin:0; padding:0.6rem 0 0 0; }
+.f-services ul li:first-child {padding:0;}
+.f-services ul li a{margin:0; padding:0; font-size:1rem; color:#fff; font-weight:400;  text-transform:capitalize;}
+.f-services ul li a:hover {color: rgba(255, 255, 255, 0.6);}
+.f-Blog {margin:0; padding:0;}
+.f-Blog ul {margin:0; padding:0;}
+.f-Blog ul li {margin:0; padding:0.6rem 0 0 0; }
+.f-Blog ul li:first-child {padding:0;}
+.f-Blog ul li a{margin:0; padding:0; font-size:1rem; color:#fff; font-weight:400;  text-transform:capitalize;}
+.f-Blog ul li a:hover {color: rgba(255, 255, 255, 0.6);}
+.f-Careers {margin:0; padding:0;}
+.f-Careers ul {margin:0; padding:0;}
+.f-Careers ul li {margin:0; padding:0.6rem 0 0 0; }
+.f-Careers ul li:first-child {padding:0;}
+.f-Careers ul li a{margin:0; padding:0; font-size:1rem; color:#fff; font-weight:400;  text-transform:capitalize;}
+.f-Careers ul li a:hover {color: rgba(255, 255, 255, 0.6);}
+.f-facebook {margin:0; padding:0;}
+.f-facebook ul {margin:0; padding:0;}
+.f-facebook ul li {margin:0; padding:0.6rem 0 0 0;}
+.f-facebook ul li:first-child {padding:0;}
+.f-facebook ul li a{margin:0; padding:0; font-size:1rem; color:#fff; font-weight:400;  text-transform:capitalize;}
+.f-facebook ul li a:hover {color: rgba(255, 255, 255, 0.6);}
+
+.contact-information {margin:0; padding:0;}
+.contact-information ul {list-style:none;}
+.contact-information ul li {margin:0; padding:15px 0 0 0; display:flex; }
+.contact-information ul li:first-child {margin:0; padding:0;}
+.contact-information ul li .location-fulton { margin:0 10px 0 0; padding:0;}
+.location-fulton a {color:#fff; font-size:16px; }
+.location-fulton a .fa {font-size:1.5rem; color:#fff; }
+.contact-information ul li .fulton-street a {color: rgba(255, 255, 255, 0.6); font-size:16px; transition: all 0.3s ease-in-out;}
+.contact-information ul li .fulton-street a:hover {color:#fff;}
+
+.footer-copy {margin:0; padding:4rem 0 0 0;}
+.footer-copy h4 {margin:0; padding:0; font-size:1rem; color: rgba(255, 255, 255, 0.6); font-family:400;}
+
+ 
+    
+
